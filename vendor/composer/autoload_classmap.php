@@ -6,5 +6,14 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Application\\ParkingService' => $baseDir . '/Projeto/src/Application/ParkingService.php',
+    'App\\Domain\\Entity\\ParkingSession' => $baseDir . '/Projeto/src/Domain/Entity/ParkingSession.php',
+    'App\\Domain\\Pricing\\FixedRateStrategy' => $baseDir . '/Projeto/src/Domain/Pricing/FixedRateStrategy.php',
+    'App\\Domain\\Pricing\\PricingStrategyInterface' => $baseDir . '/Projeto/src/Domain/Pricing/PricingStrategyInterface.php',
+    'App\\Domain\\Pricing\\PricingStrategyRegistry' => $baseDir . '/Projeto/src/Domain/Pricing/PricingStrategyRegistry.php',
+    'App\\Domain\\Repository\\ParkingSessionRepositoryInterface' => $baseDir . '/Projeto/src/Domain/Repository/ParkingSessionRepositoryInterface.php',
+    'App\\Domain\\VehicleType' => $baseDir . '/Projeto/src/Domain/VehicleType.php',
+    'App\\Infra\\Database\\Connection' => $baseDir . '/Projeto/src/Infra/Database/Connection.php',
+    'App\\Infra\\Repository\\SQLiteParkingSessionRepository' => $baseDir . '/Projeto/src/Infra/Repository/SQLiteParkingSessionRepository.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
 );

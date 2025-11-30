@@ -13,3 +13,5 @@ final class FixedRateStrategy implements PricingStrategyInterface//
         return $hours * $this->pricePerHour;
     }
 }
+
+?>

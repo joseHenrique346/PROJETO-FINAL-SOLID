@@ -7,20 +7,29 @@ namespace Composer\Autoload;
 class ComposerStaticInitec4cdb0665eee68c4fc1ff8103fe4b60
 {
     public static $prefixLengthsPsr4 = array (
-        'A' =>
+        'A' => 
         array (
             'App\\' => 4,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'App\\' =>
+        'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Projeto/src',
         ),
     );
 
     public static $classMap = array (
+        'App\\Application\\ParkingService' => __DIR__ . '/../..' . '/Projeto/src/Application/ParkingService.php',
+        'App\\Domain\\Entity\\ParkingSession' => __DIR__ . '/../..' . '/Projeto/src/Domain/Entity/ParkingSession.php',
+        'App\\Domain\\Pricing\\FixedRateStrategy' => __DIR__ . '/../..' . '/Projeto/src/Domain/Pricing/FixedRateStrategy.php',
+        'App\\Domain\\Pricing\\PricingStrategyInterface' => __DIR__ . '/../..' . '/Projeto/src/Domain/Pricing/PricingStrategyInterface.php',
+        'App\\Domain\\Pricing\\PricingStrategyRegistry' => __DIR__ . '/../..' . '/Projeto/src/Domain/Pricing/PricingStrategyRegistry.php',
+        'App\\Domain\\Repository\\ParkingSessionRepositoryInterface' => __DIR__ . '/../..' . '/Projeto/src/Domain/Repository/ParkingSessionRepositoryInterface.php',
+        'App\\Domain\\VehicleType' => __DIR__ . '/../..' . '/Projeto/src/Domain/VehicleType.php',
+        'App\\Infra\\Database\\Connection' => __DIR__ . '/../..' . '/Projeto/src/Infra/Database/Connection.php',
+        'App\\Infra\\Repository\\SQLiteParkingSessionRepository' => __DIR__ . '/../..' . '/Projeto/src/Infra/Repository/SQLiteParkingSessionRepository.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 

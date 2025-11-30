@@ -17,3 +17,5 @@ enum VehicleType: string
         };
     }
 }
+
+?>

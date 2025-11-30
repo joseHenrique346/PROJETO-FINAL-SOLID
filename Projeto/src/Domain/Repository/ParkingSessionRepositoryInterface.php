@@ -18,3 +18,5 @@ interface ParkingSessionRepositoryInterface
      */
     public function reportTotals(): array;
 }
+
+?>

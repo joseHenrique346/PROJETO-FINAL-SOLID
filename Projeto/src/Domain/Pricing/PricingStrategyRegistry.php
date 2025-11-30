@@ -19,3 +19,5 @@ final class PricingStrategyRegistry//
         return $this->strategies[$type->value];
     }
 }
+
+?>
