@@ -20,8 +20,6 @@ O intuito não é apenas fazer funcionar, mas servir como **exemplo educativo / 
 - Composer — para autoload / gerenciamento de dependências
 - Ambiente de desenvolvimento local (XAMPP)
 
-Se houver frameworks, libs ou pacotes usados, liste aqui.  
-
 ## Como Rodar / Como Configurar
 
 ### Pré-requisitos
